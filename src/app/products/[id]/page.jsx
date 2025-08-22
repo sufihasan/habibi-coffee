@@ -8,7 +8,7 @@ export default async function ProductsDetailsPage({ params }) {
     // const productCollection = dbConnect("coffees");
     // const data = await productCollection.findOne({ _id: new ObjectId(p.id) });
     // const res = await fetch(`http://localhost:3000/api/product/${p.id}`);
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || ''}/api/product/${p.id}`, {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/product/${p.id}`, {
         cache: 'no-store'
     });
     const data = await res.json();

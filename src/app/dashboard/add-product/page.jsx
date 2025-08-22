@@ -35,7 +35,7 @@ export default function AddProductPage() {
         // });
 
         const res = await fetch(
-            `${process.env.NEXT_PUBLIC_BASE_URL || ''}/api/product`,
+            `${process.env.NEXT_PUBLIC_BASE_URL}/api/product`,
             {
                 method: "POST",
                 headers: {
