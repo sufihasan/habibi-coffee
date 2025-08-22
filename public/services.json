@@ -1,0 +1,56 @@
+[
+    {
+        "_id": "1",
+        "title": "Espresso",
+        "price": 2.50,
+        "description": "A strong and bold shot of pure coffee, rich in flavor and aroma.",
+        "img": "https://i.ibb.co/0s1z2YF/espresso.jpg",
+        "item": "Coffee",
+        "taste": "Strong, bold, bitter"
+    },
+    {
+        "_id": "2",
+        "title": "Cappuccino",
+        "price": 3.50,
+        "description": "A classic Italian coffee with equal parts espresso, steamed milk, and foam.",
+        "img": "https://i.ibb.co/8dK9bSs/cappuccino.jpg",
+        "item": "Coffee",
+        "taste": "Creamy, smooth, slightly bitter"
+    },
+    {
+        "_id": "3",
+        "title": "Latte",
+        "price": 3.80,
+        "description": "Smooth espresso with steamed milk, topped with a light foam layer.",
+        "img": "https://i.ibb.co/vY8k1Gr/latte.jpg",
+        "item": "Coffee",
+        "taste": "Mild, milky, smooth"
+    },
+    {
+        "_id": "4",
+        "title": "Mocha",
+        "price": 4.20,
+        "description": "A delicious mix of espresso, chocolate, and steamed milk with whipped cream.",
+        "img": "https://i.ibb.co/7W52bML/mocha.jpg",
+        "item": "Coffee",
+        "taste": "Sweet, chocolatey, creamy"
+    },
+    {
+        "_id": "5",
+        "title": "Cold Brew",
+        "price": 3.00,
+        "description": "Brewed slowly in cold water for a refreshing and smooth coffee taste.",
+        "img": "https://i.ibb.co/V3S0Q1H/coldbrew.jpg",
+        "item": "Coffee",
+        "taste": "Smooth, low acidity, refreshing"
+    },
+    {
+        "_id": "6",
+        "title": "Caramel Frappuccino",
+        "price": 4.50,
+        "description": "A sweet, blended iced coffee with caramel syrup and whipped cream.",
+        "img": "https://i.ibb.co/MGB3yYr/frappuccino.jpg",
+        "item": "Coffee",
+        "taste": "Sweet, caramelized, creamy"
+    }
+]
