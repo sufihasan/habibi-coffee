@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import dbConnect from '@/lib/dbconnect';
 import Image from 'next/image';
 import Link from 'next/link';
