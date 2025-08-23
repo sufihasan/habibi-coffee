@@ -1,7 +1,7 @@
 # Project Name: HabibiCoffee
 
 ### Project description:
-HabibiCoffee is a Next js app that people cun buy coffee and they can Login,Register,See Producets (coffees). Login user can add product. 
+HabibiCoffee is a Next js app where people cun buy coffee and they can Login,Register,See Producets (coffees). Login user can add product.  
 ### liveUrl: https://habib-shop.vercel.app/
 
 
@@ -41,7 +41,7 @@ HabibiCoffee is a Next js app that people cun buy coffee and they can Login,Regi
 #### Public Routes
 - `/` → Home page
 - `/about` → About page   
-- `/login` → User login page  
+- `/login` → User login page   
 - `/register` → User registration page  
 - `/products` → List of all products  
 - `/api/products/[id]` → Fetch single product by ID
