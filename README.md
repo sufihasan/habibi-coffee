@@ -17,7 +17,7 @@ HabibiCoffee is a Next js app where people cun buy coffee and they can Login,Reg
 #### 3. Set up environment variables
 
 - NEXTAUTH_SECRET=secret_key
-- NEXTAUTH_URL=http://localhost:3000
+- NEXTAUTH_URL=https://habib-shop.vercel.app
 - DATABASE_URL=database_url
 
 
