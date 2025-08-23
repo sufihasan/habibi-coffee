@@ -60,7 +60,7 @@ export default function AddProductPage() {
 
     return (
         <div className="max-w-xl mx-auto mt-10 py-5 px-10 border border-gray-300 mb-10 rounded shadow">
-            <h1 className="text-3xl font-bold text-center mb-6">Add New Product</h1>
+            <h1 className="text-3xl font-bold text-center mb-6">Add New Coffee</h1>
             <form onSubmit={handleSubmit} className="flex flex-col gap-4">
                 <input type="text" name="title" placeholder="Product Title" className="input input-bordered w-full" required />
                 <textarea name="description" placeholder="Product Description" className="textarea textarea-bordered w-full" required />

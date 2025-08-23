@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Name: HabibiCoffee
 
-## Getting Started
+### Project description:
+HabibiCoffee is a Next js app that people cun buy coffee and they can Login,Register,See Producets (coffees). Login user can add product. 
+### liveUrl: https://habib-shop.vercel.app/
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Setup & installation instructions
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### 1. Clone the repository
+- git clone https://github.com/sufihasan/habibi-coffee.git
+- cd habibi-coffee
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+#### 2. Install dependencies
+- npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+#### 3. Set up environment variables
 
-## Learn More
+- NEXTAUTH_SECRET=secret_key
+- NEXTAUTH_URL=http://localhost:3000
+- DATABASE_URL=database_url
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### key features:
+- User login.
+- user register.
+- Create Service.
+- User logout.
+- Show 6  group, Home page
+- User can see which service he created in my service
+- User can update and delete which  service he create.
+- user can add review.
+- user can update and delete review
+- Loading where need.
+- Responsive for Desktop, laptop, tab and mobile device
+- mongo db create , update, delete, put operation.
+- view details of service.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+###  Route Summary
 
-## Deploy on Vercel
+#### Public Routes
+- `/` → Home page
+- `/about` → About page   
+- `/login` → User login page  
+- `/register` → User registration page  
+- `/products` → List of all products  
+- `/api/products/[id]` → Fetch single product by ID
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### Protected Routes
+- `/dashboard/add-product` → add-product (requires login)    
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+### Npm packages that i use
+
+- daisyUi
+- tailwinds css
+- react hot tost
+- next auth
+- bcrypt
+
+
+### Database: 
+- Mongodb
